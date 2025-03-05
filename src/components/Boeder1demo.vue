@@ -27,6 +27,7 @@
 
 <script setup lang="ts">
 import { BorderBox1 as DvBorderBox1 } from "@kjgl77/datav-vue3";
+import { ref } from "vue";
 const borderRef = ref<InstanceType<typeof DvBorderBox1>>();
 let width = ref(40);
 const handelClick = () => {
