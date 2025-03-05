@@ -1,4 +1,6 @@
-{"compilerOptions": {
+{
+  "base": "/bigScreen/",
+  "compilerOptions": {
    "composite": true,
     "target": "esnext",
     "module": "esnext",
