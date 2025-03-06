@@ -26,10 +26,14 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue"
+    "src/**/*.vue",
+    "src/==&zwnj;**/*.ts",
+    "src/**&zwnj;==/*.vue"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/*.d.ts",
+    "dist",
   ],
   "files": [],
   "references": [
