@@ -2,7 +2,13 @@
 import { reactive, ref } from "vue";
 import { BorderBox1 as DvBorderBox1 } from "@kjgl77/datav-vue3";
 import { BorderBox3 as DvBorderBox3 } from "@kjgl77/datav-vue3";
-
+import top1 from "./assets/top1.svg";
+import top2 from "./assets/top2.svg";
+import top3 from "./assets/top3.svg";
+import top4 from "./assets/top4.svg";
+import top5 from "./assets/top5.svg";
+import top6 from "./assets/top6.svg";
+import top7 from "./assets/top7.svg";
 const borderRef = ref<InstanceType<typeof DvBorderBox1>>();
 
 const configz = reactive({
@@ -36,15 +42,7 @@ const configz = reactive({
       value: 15,
     },
   ],
-  img: [
-    "../src/assets/top1.svg",
-    "../src/assets/top2.svg",
-    "../src/assets/top3.svg",
-    "../src/assets/top4.svg",
-    "../src/assets/top5.svg",
-    "../src/assets/top6.svg",
-    "../src/assets/top7.svg",
-  ],
+  img: [top1, top2, top3, top4, top5, top6, top7],
 });
 const configa = reactive({
   data: [
