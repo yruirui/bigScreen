@@ -4,7 +4,6 @@ import { BorderBox1 as DvBorderBox1 } from "@kjgl77/datav-vue3";
 import { BorderBox3 as DvBorderBox3 } from "@kjgl77/datav-vue3";
 
 const borderRef = ref<InstanceType<typeof DvBorderBox1>>();
-let width = ref(40);
 
 const configz = reactive({
   data: [
